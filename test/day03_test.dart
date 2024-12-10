@@ -15,7 +15,7 @@ import '../solutions/day03.dart';
 /// Make sure to respect the multiline string format to avoid additional
 /// newlines at the end.
 const _exampleInput1 = '''
-''';
+xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))''';
 
 /// Paste in the small example that is given for the SECOND PART of the puzzle.
 /// It will be evaluated against the `_exampleSolutionPart2` below.
@@ -26,7 +26,7 @@ const _exampleInput2 = '''
 ''';
 
 /// The solution for the FIRST PART's example, which is given by the puzzle.
-const _exampleSolutionPart1 = 0;
+const _exampleSolutionPart1 = 161;
 
 /// The solution for the SECOND PART's example, which is given by the puzzle.
 const _exampleSolutionPart2 = 0;
