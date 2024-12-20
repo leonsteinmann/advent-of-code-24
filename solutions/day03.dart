@@ -14,7 +14,7 @@ class Day03 extends GenericDay {
 
     // Regular expression to match valid `mul(X,Y)` instructions.
     final regex = RegExp(r'mul\((\d{1,3}),\s*(\d{1,3})\)');
-    int totalSum = 0;
+    var totalSum = 0;
 
     // Iterate over all matches in the input string.
     for (final match in regex.allMatches(string)) {
